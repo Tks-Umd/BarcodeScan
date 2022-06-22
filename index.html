@@ -8,9 +8,14 @@
      
 </head>
 <body>
-     <div id="">
-          <p class="">↓ここにコードを表示します↓</p>
-          <p class=""></p>
+     <h1>バーコード読み込みサンプル</h1>
+     <input type="text" id="code">
+     <button id="btn">カメラでバーコードを読み込む</button>
+     <div id="modal" class="modal">
+          <div id="interactive" class="viewport"></div>
+          <p class="text">カメラにバーコードを写してください。</p>
      </div>
 </body>
+     <script src="scripts/quagga.min.js" type="text/javascript"></script>
+     <script src="scripts/main.js" type="text/javascript"></script>
 </html>
